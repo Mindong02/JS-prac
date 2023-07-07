@@ -6,3 +6,4 @@ for(var i=1; i<10; i++){
     console.log(i+"! = "+fact(i));
 }
 console.log("hi!!");
+

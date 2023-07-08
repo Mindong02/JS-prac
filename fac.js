@@ -5,7 +5,3 @@ function fact(n){
 for(var i=1; i<10; i++){
     console.log(i+"! = "+fact(i));
 }
-console.log("hi!!");
-
-console.log("hey, jude");
-console.log("i came back");

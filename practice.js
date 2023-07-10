@@ -41,10 +41,22 @@ supers();
 //console.log(1, best)는 아래에서 함수를 호이스팅함
 //호이스팅은 선언부와 대입부가 동시에 있을 때 선언부만 끌어올림 그래서 undefined가 되는 것임.
 */
+/*
 // 동적 할당 변수
 var pi=3.14;
 console.log(pi);
 var pi="원주율"
 console.log(pi);
-var pi=1.3;
-console.log(typeof(pi));
+var pi=1.3; 
+console.log(typeof(pi)); //numeber로 나옴. js는 var로 자료형을 정하기 때문에 int, float형이 없음.
+*/
+/*
+// 문자열 리터럴, space holder
+console.log("a");
+var now = new Date();
+console.log(`오늘은 ${now.getMonth()+1} 월 ${now.getDate()}일 입니다.`);
+*/
+//객체 리터럴
+var card = {suit:"하트", rank:'A'};
+console.log(card.suit);
+console.log(card.rank);

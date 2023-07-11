@@ -56,7 +56,33 @@ console.log("a");
 var now = new Date();
 console.log(`오늘은 ${now.getMonth()+1} 월 ${now.getDate()}일 입니다.`);
 */
+/*
 //객체 리터럴
 var card = {suit:"하트", rank:'A'};
 console.log(card.suit);
-console.log(card.rank);
+console.log(card.lol);
+card.rank='B';
+card.rule=14;
+console.log(card);
+delete card.rank;
+console.log(card);
+console.log("rank" in card);
+console.log("lol" in card);
+var person={
+    name:"동민",
+    height:180,
+    age:24,
+    sex:"남",
+    married:"divorced"
+}
+console.log(person)
+console.log(person.name)
+// c++클래스랑 비슷함.
+
+var p= {x:1.0, y:2.5};
+var circle={
+    center:{x:1.0, y:2.0},
+    radius:3
+}
+console.log(circle.center.x)
+*/
